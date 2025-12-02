@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- ============================= NAVIGATION ============================= -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="brand-name">EthioAcademy</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Courses</a></li>
+                <li><a href="contact.html" class="active-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ============================= HERO SECTION ============================= -->
+    <section class="contact-hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>Have questions or want to enroll in a course? Send us a message and we’ll get back to you as soon as possible.</p>
+        </div>
+    </section>
+
+    <!-- ============================= CONTACT FORM + INFO ============================= -->
+    <section class="contact-section">
+        <div class="contact-container">
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="#" method="POST">
+                <h2 class="form-title">Send a Message</h2>
+
+                <label for="full-name" class="form-label">Full Name</label>
+                <input type="text" id="full-name" name="full-name" class="form-input" placeholder="Enter your full name" required>
+
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="Enter your email" required>
+
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-input" placeholder="What is this about?" required>
+
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+
+            <!-- Contact Info -->
+            <div class="contact-details">
+                <h2 class="contact-title">Other Ways to Reach Us</h2>
+                <p class="contact-text">You can also contact us using the following channels:</p>
+
+                <div class="contact-info">
+                    <p><strong>Email:</strong> support@quizverse.com</p>
+                    <p><strong>Phone:</strong> +251 900 000 000</p>
+                    <p><strong>Location:</strong> Addis Ababa, Ethiopia</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================= FOOTER ============================= -->
+    <footer class="main-footer">
+        <p>© 2025 EthioAcademy. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
